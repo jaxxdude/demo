@@ -23,6 +23,7 @@ public class basic_calculator {
 	 * Launch the application.
 	 */
 	public static void main(String[] args) {
+		System.out.println("Welcome");
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
