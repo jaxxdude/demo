@@ -48,6 +48,7 @@ public class basic_calculator {
 	 */
 	private void initialize() {
 		frame = new JFrame();
+		System.out.println("Welcome to the GUI");
 		frame.setBounds(100, 100, 450, 300);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.getContentPane().setLayout(null);
